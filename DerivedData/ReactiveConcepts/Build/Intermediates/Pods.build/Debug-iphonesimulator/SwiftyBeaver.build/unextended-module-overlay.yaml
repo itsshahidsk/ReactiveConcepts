@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/SwiftyBeaver.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyBeaver.build/unextended-module.modulemap',
+    }]
+  }]
+}

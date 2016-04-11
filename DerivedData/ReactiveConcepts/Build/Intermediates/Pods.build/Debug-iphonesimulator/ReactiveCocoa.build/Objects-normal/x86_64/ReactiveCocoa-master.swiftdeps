@@ -1,0 +1,19 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "25d88a72d61b50e98bc72d114eb595aa"
+build_time: [513723328, 738538000]
+inputs:
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Action.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Atomic.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Bag.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Disposable.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Event.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Flatten.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/FoundationExtensions.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/ObjectiveCBridging.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Observer.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Optional.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Property.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Scheduler.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Signal.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/SignalProducer.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/ReactiveCocoa/ReactiveCocoa/Swift/TupleExtensions.swift": [513723282, 0]

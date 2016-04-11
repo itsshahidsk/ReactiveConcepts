@@ -1,0 +1,79 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConsoleDestination"
+provides-nominal:
+- "C12SwiftyBeaver18ConsoleDestination"
+provides-member:
+- ["C12SwiftyBeaver18ConsoleDestination", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "FloatLiteralType"
+- "SwiftyBeaver"
+- "ConsoleDestination"
+- !private "print"
+- "Int"
+- "BaseDestination"
+- !private "IntegerLiteralType"
+- "String"
+depends-member:
+- ["Ps9AnyObject", "Level"]
+- ["Ps9AnyObject", "defaultHashValue"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "send"]
+- ["Ps9AnyObject", ""]
+- ["C12SwiftyBeaver15BaseDestination", "Int"]
+- ["C12SwiftyBeaver15BaseDestination", "String"]
+- ["C12SwiftyBeaver15BaseDestination", "SwiftyBeaver"]
+- ["C12SwiftyBeaver15BaseDestination", "defaultHashValue"]
+- ["C12SwiftyBeaver15BaseDestination", "init"]
+- !private ["C12SwiftyBeaver15BaseDestination", "print"]
+- ["C12SwiftyBeaver15BaseDestination", "send"]
+- ["C12SwiftyBeaver15BaseDestination", ""]
+- ["C12SwiftyBeaver18ConsoleDestination", "Int"]
+- ["C12SwiftyBeaver18ConsoleDestination", "String"]
+- ["C12SwiftyBeaver18ConsoleDestination", "SwiftyBeaver"]
+- ["C12SwiftyBeaver18ConsoleDestination", "defaultHashValue"]
+- ["C12SwiftyBeaver18ConsoleDestination", "deinit"]
+- ["C12SwiftyBeaver18ConsoleDestination", "init"]
+- !private ["C12SwiftyBeaver18ConsoleDestination", "print"]
+- ["C12SwiftyBeaver18ConsoleDestination", "send"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps9Equatable", "defaultHashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "send"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "defaultHashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "send"]
+- ["Ps8Hashable", ""]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- ["C12SwiftyBeaver12SwiftyBeaver", "Level"]
+- ["Ps12_Reflectable", "Some"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C12SwiftyBeaver15BaseDestination"
+- "C12SwiftyBeaver18ConsoleDestination"
+- "Ps28CustomDebugStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- "C12SwiftyBeaver12SwiftyBeaver"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/Target Support Files/SwiftyBeaver/SwiftyBeaver-umbrella.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyBeaver.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "55321866708c9de7626f00c3be2d4cba"

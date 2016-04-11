@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "6dbebb12ce803bda1fc8af1309c755eb"
+build_time: [513723327, 275680000]
+inputs:
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/Result/Result/Result.swift": [513723282, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/Result/Result/ResultType.swift": [513723282, 0]

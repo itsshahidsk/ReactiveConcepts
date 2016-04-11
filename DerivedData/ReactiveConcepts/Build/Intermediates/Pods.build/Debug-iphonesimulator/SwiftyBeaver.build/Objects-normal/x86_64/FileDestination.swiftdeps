@@ -1,0 +1,589 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FileDestination"
+provides-nominal:
+- "C12SwiftyBeaver15FileDestination"
+provides-member:
+- ["C12SwiftyBeaver15FileDestination", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSFileManager"
+- "NSURL"
+- !private "BooleanLiteralType"
+- "Int"
+- !private "+"
+- "String"
+- "SwiftyBeaver"
+- "FileDestination"
+- !private "=="
+- "NSFileHandle"
+- !private "NSUTF8StringEncoding"
+- "Bool"
+- !private "UnicodeScalarType"
+- !private "print"
+- "BaseDestination"
+- !private "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "Level"]
+- !private ["Ps9AnyObject", "NSFileHandle"]
+- ["Ps9AnyObject", "NSFileManager"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "NSUTF8StringEncoding"]
+- !private ["Ps9AnyObject", "URLByAppendingPathComponent"]
+- !private ["Ps9AnyObject", "URLsForDirectory"]
+- !private ["Ps9AnyObject", "blue"]
+- !private ["Ps9AnyObject", "closeFile"]
+- !private ["Ps9AnyObject", "cyan"]
+- !private ["Ps9AnyObject", "dataUsingEncoding"]
+- ["Ps9AnyObject", "defaultHashValue"]
+- ["Ps9AnyObject", "defaultManager"]
+- !private ["Ps9AnyObject", "fileExistsAtPath"]
+- ["Ps9AnyObject", "fileHandle"]
+- ["Ps9AnyObject", "fileManager"]
+- !private ["Ps9AnyObject", "green"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "logFileURL"]
+- !private ["Ps9AnyObject", "magenta"]
+- !private ["Ps9AnyObject", "path"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "red"]
+- !private ["Ps9AnyObject", "reset"]
+- ["Ps9AnyObject", "saveToFile"]
+- !private ["Ps9AnyObject", "seekToEndOfFile"]
+- ["Ps9AnyObject", "send"]
+- !private ["Ps9AnyObject", "silver"]
+- !private ["Ps9AnyObject", "writeData"]
+- !private ["Ps9AnyObject", "writeToURL"]
+- !private ["Ps9AnyObject", "yellow"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "first"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "UserDomainMask"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "first"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- ["C12SwiftyBeaver15BaseDestination", "Bool"]
+- ["C12SwiftyBeaver15BaseDestination", "Int"]
+- ["C12SwiftyBeaver15BaseDestination", "NSFileHandle"]
+- ["C12SwiftyBeaver15BaseDestination", "NSFileManager"]
+- ["C12SwiftyBeaver15BaseDestination", "NSURL"]
+- !private ["C12SwiftyBeaver15BaseDestination", "NSUTF8StringEncoding"]
+- ["C12SwiftyBeaver15BaseDestination", "String"]
+- ["C12SwiftyBeaver15BaseDestination", "SwiftyBeaver"]
+- !private ["C12SwiftyBeaver15BaseDestination", "blue"]
+- !private ["C12SwiftyBeaver15BaseDestination", "cyan"]
+- ["C12SwiftyBeaver15BaseDestination", "defaultHashValue"]
+- ["C12SwiftyBeaver15BaseDestination", "fileHandle"]
+- ["C12SwiftyBeaver15BaseDestination", "fileManager"]
+- !private ["C12SwiftyBeaver15BaseDestination", "green"]
+- ["C12SwiftyBeaver15BaseDestination", "init"]
+- ["C12SwiftyBeaver15BaseDestination", "logFileURL"]
+- !private ["C12SwiftyBeaver15BaseDestination", "magenta"]
+- !private ["C12SwiftyBeaver15BaseDestination", "print"]
+- !private ["C12SwiftyBeaver15BaseDestination", "red"]
+- !private ["C12SwiftyBeaver15BaseDestination", "reset"]
+- ["C12SwiftyBeaver15BaseDestination", "saveToFile"]
+- ["C12SwiftyBeaver15BaseDestination", "send"]
+- !private ["C12SwiftyBeaver15BaseDestination", "silver"]
+- !private ["C12SwiftyBeaver15BaseDestination", "yellow"]
+- ["C12SwiftyBeaver15BaseDestination", ""]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "URLByAppendingPathComponent"]
+- !private ["Ps11CVarArgType", "URLsForDirectory"]
+- !private ["Ps11CVarArgType", "closeFile"]
+- !private ["Ps11CVarArgType", "dataUsingEncoding"]
+- ["Ps11CVarArgType", "defaultManager"]
+- !private ["Ps11CVarArgType", "fileExistsAtPath"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "path"]
+- !private ["Ps11CVarArgType", "seekToEndOfFile"]
+- !private ["Ps11CVarArgType", "writeData"]
+- !private ["Ps11CVarArgType", "writeToURL"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "first"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "dataUsingEncoding"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "writeToURL"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "URLByAppendingPathComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "URLsForDirectory"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "closeFile"]
+- !private ["Ps28CustomDebugStringConvertible", "dataUsingEncoding"]
+- ["Ps28CustomDebugStringConvertible", "defaultManager"]
+- !private ["Ps28CustomDebugStringConvertible", "fileExistsAtPath"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "path"]
+- !private ["Ps28CustomDebugStringConvertible", "seekToEndOfFile"]
+- !private ["Ps28CustomDebugStringConvertible", "writeData"]
+- !private ["Ps28CustomDebugStringConvertible", "writeToURL"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "URLByAppendingPathComponent"]
+- !private ["Ps23CustomStringConvertible", "URLsForDirectory"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "closeFile"]
+- !private ["Ps23CustomStringConvertible", "dataUsingEncoding"]
+- ["Ps23CustomStringConvertible", "defaultManager"]
+- !private ["Ps23CustomStringConvertible", "fileExistsAtPath"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- !private ["Ps23CustomStringConvertible", "seekToEndOfFile"]
+- !private ["Ps23CustomStringConvertible", "writeData"]
+- !private ["Ps23CustomStringConvertible", "writeToURL"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "DocumentDirectory"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "NSFileHandle"]
+- ["Ps9Equatable", "NSFileManager"]
+- !private ["Ps9Equatable", "NSURL"]
+- !private ["Ps9Equatable", "NSUTF8StringEncoding"]
+- !private ["Ps9Equatable", "URLByAppendingPathComponent"]
+- !private ["Ps9Equatable", "URLsForDirectory"]
+- !private ["Ps9Equatable", "UserDomainMask"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "blue"]
+- !private ["Ps9Equatable", "closeFile"]
+- !private ["Ps9Equatable", "cyan"]
+- !private ["Ps9Equatable", "dataUsingEncoding"]
+- ["Ps9Equatable", "defaultHashValue"]
+- ["Ps9Equatable", "defaultManager"]
+- !private ["Ps9Equatable", "fileExistsAtPath"]
+- ["Ps9Equatable", "fileHandle"]
+- ["Ps9Equatable", "fileManager"]
+- !private ["Ps9Equatable", "green"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "logFileURL"]
+- !private ["Ps9Equatable", "magenta"]
+- !private ["Ps9Equatable", "path"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "red"]
+- !private ["Ps9Equatable", "reset"]
+- ["Ps9Equatable", "saveToFile"]
+- !private ["Ps9Equatable", "seekToEndOfFile"]
+- ["Ps9Equatable", "send"]
+- !private ["Ps9Equatable", "silver"]
+- !private ["Ps9Equatable", "writeData"]
+- !private ["Ps9Equatable", "writeToURL"]
+- !private ["Ps9Equatable", "yellow"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "writeToURL"]
+- ["C12SwiftyBeaver15FileDestination", "Bool"]
+- ["C12SwiftyBeaver15FileDestination", "Int"]
+- ["C12SwiftyBeaver15FileDestination", "NSFileHandle"]
+- ["C12SwiftyBeaver15FileDestination", "NSFileManager"]
+- ["C12SwiftyBeaver15FileDestination", "NSURL"]
+- !private ["C12SwiftyBeaver15FileDestination", "NSUTF8StringEncoding"]
+- ["C12SwiftyBeaver15FileDestination", "String"]
+- ["C12SwiftyBeaver15FileDestination", "SwiftyBeaver"]
+- !private ["C12SwiftyBeaver15FileDestination", "blue"]
+- !private ["C12SwiftyBeaver15FileDestination", "cyan"]
+- ["C12SwiftyBeaver15FileDestination", "defaultHashValue"]
+- ["C12SwiftyBeaver15FileDestination", "deinit"]
+- ["C12SwiftyBeaver15FileDestination", "fileHandle"]
+- ["C12SwiftyBeaver15FileDestination", "fileManager"]
+- !private ["C12SwiftyBeaver15FileDestination", "green"]
+- ["C12SwiftyBeaver15FileDestination", "init"]
+- ["C12SwiftyBeaver15FileDestination", "logFileURL"]
+- !private ["C12SwiftyBeaver15FileDestination", "magenta"]
+- !private ["C12SwiftyBeaver15FileDestination", "print"]
+- !private ["C12SwiftyBeaver15FileDestination", "red"]
+- !private ["C12SwiftyBeaver15FileDestination", "reset"]
+- ["C12SwiftyBeaver15FileDestination", "saveToFile"]
+- ["C12SwiftyBeaver15FileDestination", "send"]
+- !private ["C12SwiftyBeaver15FileDestination", "silver"]
+- !private ["C12SwiftyBeaver15FileDestination", "yellow"]
+- !private ["Sf", "deinit"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "DocumentDirectory"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "NSFileHandle"]
+- ["Ps8Hashable", "NSFileManager"]
+- !private ["Ps8Hashable", "NSURL"]
+- !private ["Ps8Hashable", "NSUTF8StringEncoding"]
+- !private ["Ps8Hashable", "URLByAppendingPathComponent"]
+- !private ["Ps8Hashable", "URLsForDirectory"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "blue"]
+- !private ["Ps8Hashable", "closeFile"]
+- !private ["Ps8Hashable", "cyan"]
+- !private ["Ps8Hashable", "dataUsingEncoding"]
+- ["Ps8Hashable", "defaultHashValue"]
+- ["Ps8Hashable", "defaultManager"]
+- !private ["Ps8Hashable", "fileExistsAtPath"]
+- ["Ps8Hashable", "fileHandle"]
+- ["Ps8Hashable", "fileManager"]
+- !private ["Ps8Hashable", "green"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "logFileURL"]
+- !private ["Ps8Hashable", "magenta"]
+- !private ["Ps8Hashable", "path"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "red"]
+- !private ["Ps8Hashable", "reset"]
+- ["Ps8Hashable", "saveToFile"]
+- !private ["Ps8Hashable", "seekToEndOfFile"]
+- ["Ps8Hashable", "send"]
+- !private ["Ps8Hashable", "silver"]
+- !private ["Ps8Hashable", "writeData"]
+- !private ["Ps8Hashable", "writeToURL"]
+- !private ["Ps8Hashable", "yellow"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "first"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "dataUsingEncoding"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps14MirrorPathType", "writeToURL"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "first"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "first"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "first"]
+- !private ["PSo8NSCoding", "URLByAppendingPathComponent"]
+- !private ["PSo8NSCoding", "closeFile"]
+- !private ["PSo8NSCoding", "dataUsingEncoding"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "path"]
+- !private ["PSo8NSCoding", "seekToEndOfFile"]
+- !private ["PSo8NSCoding", "writeData"]
+- !private ["PSo8NSCoding", "writeToURL"]
+- !private ["PSo9NSCopying", "URLByAppendingPathComponent"]
+- !private ["PSo9NSCopying", "dataUsingEncoding"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "path"]
+- !private ["PSo9NSCopying", "writeToURL"]
+- !private ["CSo12NSFileHandle", "closeFile"]
+- !private ["CSo12NSFileHandle", "init"]
+- !private ["CSo12NSFileHandle", "seekToEndOfFile"]
+- !private ["CSo12NSFileHandle", "writeData"]
+- !private ["CSo13NSFileManager", "URLsForDirectory"]
+- ["CSo13NSFileManager", "defaultManager"]
+- !private ["CSo13NSFileManager", "fileExistsAtPath"]
+- !private ["PSo16NSMutableCopying", "dataUsingEncoding"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "writeToURL"]
+- !private ["CSo8NSObject", "URLByAppendingPathComponent"]
+- !private ["CSo8NSObject", "URLsForDirectory"]
+- !private ["CSo8NSObject", "closeFile"]
+- !private ["CSo8NSObject", "dataUsingEncoding"]
+- ["CSo8NSObject", "defaultManager"]
+- !private ["CSo8NSObject", "fileExistsAtPath"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "path"]
+- !private ["CSo8NSObject", "seekToEndOfFile"]
+- !private ["CSo8NSObject", "writeData"]
+- !private ["CSo8NSObject", "writeToURL"]
+- !private ["PSo16NSObjectProtocol", "URLByAppendingPathComponent"]
+- !private ["PSo16NSObjectProtocol", "URLsForDirectory"]
+- !private ["PSo16NSObjectProtocol", "closeFile"]
+- !private ["PSo16NSObjectProtocol", "dataUsingEncoding"]
+- ["PSo16NSObjectProtocol", "defaultManager"]
+- !private ["PSo16NSObjectProtocol", "fileExistsAtPath"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "path"]
+- !private ["PSo16NSObjectProtocol", "seekToEndOfFile"]
+- !private ["PSo16NSObjectProtocol", "writeData"]
+- !private ["PSo16NSObjectProtocol", "writeToURL"]
+- !private ["OSC21NSSearchPathDirectory", "DocumentDirectory"]
+- !private ["VSC22NSSearchPathDomainMask", "UserDomainMask"]
+- !private ["PSo14NSSecureCoding", "URLByAppendingPathComponent"]
+- !private ["PSo14NSSecureCoding", "closeFile"]
+- !private ["PSo14NSSecureCoding", "dataUsingEncoding"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "path"]
+- !private ["PSo14NSSecureCoding", "seekToEndOfFile"]
+- !private ["PSo14NSSecureCoding", "writeData"]
+- !private ["PSo14NSSecureCoding", "writeToURL"]
+- !private ["CSo8NSString", "dataUsingEncoding"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "writeToURL"]
+- !private ["CSo5NSURL", "URLByAppendingPathComponent"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo5NSURL", "path"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Ps13OptionSetType", "UserDomainMask"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "dataUsingEncoding"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps16OutputStreamType", "writeToURL"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "first"]
+- !private ["Ps16RawRepresentable", "DocumentDirectory"]
+- !private ["Ps16RawRepresentable", "UserDomainMask"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "first"]
+- !private ["Ps14SetAlgebraType", "UserDomainMask"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps10Streamable", "dataUsingEncoding"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Streamable", "writeToURL"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "dataUsingEncoding"]
+- !private ["SS", "init"]
+- !private ["SS", "writeToURL"]
+- !private ["Ps30StringInterpolationConvertible", "dataUsingEncoding"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps30StringInterpolationConvertible", "writeToURL"]
+- !private ["Ps24StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "writeToURL"]
+- ["C12SwiftyBeaver12SwiftyBeaver", "Level"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "writeToURL"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "first"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "writeToURL"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "writeToURL"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "writeToURL"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "writeToURL"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "URLByAppendingPathComponent"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "path"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "dataUsingEncoding"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "writeToURL"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "URLByAppendingPathComponent"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "dataUsingEncoding"]
+- !private ["Ps12_Reflectable", "first"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "path"]
+- !private ["Ps12_Reflectable", "writeToURL"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- "C12SwiftyBeaver15BaseDestination"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "C12SwiftyBeaver15FileDestination"
+- !private "Sf"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo12NSFileHandle"
+- "CSo13NSFileManager"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "OSC21NSSearchPathDirectory"
+- !private "VSC22NSSearchPathDomainMask"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- "Ps21NilLiteralConvertible"
+- !private "Ps13OptionSetType"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Ps14SetAlgebraType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- "C12SwiftyBeaver12SwiftyBeaver"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/Target Support Files/SwiftyBeaver/SwiftyBeaver-umbrella.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyBeaver.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "7e1c49272d4693f37a6d1858b5236550"

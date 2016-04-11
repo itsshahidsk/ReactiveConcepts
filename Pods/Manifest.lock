@@ -1,0 +1,28 @@
+PODS:
+  - PureLayout (3.0.1)
+  - ReactiveCocoa (4.0.1):
+    - ReactiveCocoa/UI (= 4.0.1)
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/Core (4.0.1):
+    - ReactiveCocoa/no-arc
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/no-arc (4.0.1):
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/UI (4.0.1):
+    - ReactiveCocoa/Core
+    - Result (~> 1.0.2)
+  - Result (1.0.2)
+  - SwiftyBeaver (0.3.5)
+
+DEPENDENCIES:
+  - PureLayout (~> 3.0.0)
+  - ReactiveCocoa (~> 4.0.0)
+  - SwiftyBeaver (~> 0.3.0)
+
+SPEC CHECKSUMS:
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+  ReactiveCocoa: f7011630aee4deeb16352fcb1b50d6bde9db4f90
+  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
+  SwiftyBeaver: 2f90c3847586073616566dae043ad99b16866c4e
+
+COCOAPODS: 0.39.0
