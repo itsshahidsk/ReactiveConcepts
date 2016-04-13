@@ -2,6 +2,8 @@
 <playground version='6.0' target-platform='ios'>
     <pages>
         <page name='Generics'/>
-        <page name='FRP'/>
+        <page name='FRP1'/>
+        <page name='FRP-Filters'/>
+        <page name='FRP-Reductions'/>
     </pages>
 </playground>
