@@ -7,22 +7,22 @@ provides-member:
 - ["C12SwiftyBeaver15FileDestination", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "NSFileManager"
-- "NSURL"
-- !private "BooleanLiteralType"
 - "Int"
-- !private "+"
-- "String"
-- "SwiftyBeaver"
-- "FileDestination"
-- !private "=="
+- !private "print"
 - "NSFileHandle"
 - !private "NSUTF8StringEncoding"
-- "Bool"
+- !private "BooleanLiteralType"
+- "NSFileManager"
+- "SwiftyBeaver"
+- !private "+"
 - !private "UnicodeScalarType"
-- !private "print"
+- "FileDestination"
+- "String"
+- !private "=="
+- "NSURL"
 - "BaseDestination"
 - !private "StringLiteralType"
+- "Bool"
 depends-member:
 - ["Ps9AnyObject", "Level"]
 - !private ["Ps9AnyObject", "NSFileHandle"]

@@ -1,8 +1,8 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
 options: "3e4c572bcd8659d4c63393aa5815e20c"
-build_time: [513723328, 22429000]
+build_time: [513805733, 392270000]
 inputs:
-  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/SwiftyBeaver/sources/BaseDestination.swift": [513723284, 0]
-  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/SwiftyBeaver/sources/ConsoleDestination.swift": [513723284, 0]
-  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/SwiftyBeaver/sources/FileDestination.swift": [513723284, 0]
-  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/SwiftyBeaver/sources/SwiftyBeaver.swift": [513723284, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/SwiftyBeaver/sources/BaseDestination.swift": [513805727, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/SwiftyBeaver/sources/ConsoleDestination.swift": [513805727, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/SwiftyBeaver/sources/FileDestination.swift": [513805727, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/SwiftyBeaver/sources/SwiftyBeaver.swift": [513805727, 0]

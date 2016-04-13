@@ -8,12 +8,12 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "FloatLiteralType"
-- "SwiftyBeaver"
-- "ConsoleDestination"
-- !private "print"
-- "Int"
-- "BaseDestination"
 - !private "IntegerLiteralType"
+- "BaseDestination"
+- !private "print"
+- "ConsoleDestination"
+- "SwiftyBeaver"
+- "Int"
 - "String"
 depends-member:
 - ["Ps9AnyObject", "Level"]

@@ -6,101 +6,375 @@ provides-nominal:
 provides-member:
 - ["C16ReactiveConcepts14ViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
+- "textField"
 - "didReceiveMemoryWarning"
+- "submitButtonn"
+- "viewDidLoad"
 depends-top-level:
-- "UIViewController"
+- !private "Bool"
+- "UITextField"
+- !private "AnyObject"
+- "UIButton"
+- !private "String"
 - "ViewController"
+- !private "print"
+- !private ">"
+- "UIViewController"
 depends-member:
+- !private ["Ps9AnyObject", "characters"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "filter"]
 - ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "rac_textSignal"]
+- ["Ps9AnyObject", "submitButtonn"]
+- !private ["Ps9AnyObject", "subscribeNext"]
+- ["Ps9AnyObject", "textField"]
 - ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "characters"]
 - ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["Ps11CVarArgType", "filter"]
 - ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "map"]
+- !private ["Ps11CVarArgType", "print"]
+- !private ["Ps11CVarArgType", "rac_textSignal"]
+- ["Ps11CVarArgType", "submitButtonn"]
+- !private ["Ps11CVarArgType", "subscribeNext"]
+- ["Ps11CVarArgType", "textField"]
 - ["Ps11CVarArgType", "viewDidLoad"]
 - ["Ps11CVarArgType", ""]
+- !private ["VSS13CharacterView", "Generator"]
+- !private ["VSS13CharacterView", "Index"]
+- !private ["VSS13CharacterView", "SubSequence"]
+- !private ["VSS13CharacterView", "count"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "count"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
 - ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "filter"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "rac_textSignal"]
+- ["Ps28CustomDebugStringConvertible", "submitButtonn"]
+- !private ["Ps28CustomDebugStringConvertible", "subscribeNext"]
+- ["Ps28CustomDebugStringConvertible", "textField"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "characters"]
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "filter"]
 - ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "rac_textSignal"]
+- ["Ps23CustomStringConvertible", "submitButtonn"]
+- !private ["Ps23CustomStringConvertible", "subscribeNext"]
+- ["Ps23CustomStringConvertible", "textField"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "characters"]
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "filter"]
 - ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "map"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "rac_textSignal"]
+- ["Ps9Equatable", "submitButtonn"]
+- !private ["Ps9Equatable", "subscribeNext"]
+- ["Ps9Equatable", "textField"]
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "characters"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "characters"]
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "filter"]
 - ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "map"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "rac_textSignal"]
+- ["Ps8Hashable", "submitButtonn"]
+- !private ["Ps8Hashable", "subscribeNext"]
+- ["Ps8Hashable", "textField"]
 - ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["VVSS13CharacterView5Index", "Distance"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "characters"]
+- !private ["PSo8NSCoding", "characters"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "rac_textSignal"]
+- ["PSo8NSCoding", "submitButtonn"]
+- ["PSo8NSCoding", "textField"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "characters"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "submitButtonn"]
+- ["PSo26NSExtensionRequestHandling", "textField"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "characters"]
+- !private ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "characters"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "filter"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "map"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "rac_textSignal"]
+- ["CSo8NSObject", "submitButtonn"]
+- !private ["CSo8NSObject", "subscribeNext"]
+- ["CSo8NSObject", "textField"]
 - ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "characters"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "filter"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "map"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "rac_textSignal"]
+- ["PSo16NSObjectProtocol", "submitButtonn"]
+- !private ["PSo16NSObjectProtocol", "subscribeNext"]
+- ["PSo16NSObjectProtocol", "textField"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["CSo8NSString", "characters"]
+- !private ["Ps16OutputStreamType", "characters"]
+- !private ["CSo9RACSignal", "filter"]
+- !private ["CSo9RACSignal", "map"]
+- !private ["CSo9RACSignal", "subscribeNext"]
+- !private ["CSo9RACStream", "filter"]
+- !private ["CSo9RACStream", "map"]
+- !private ["CSo9RACStream", "subscribeNext"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "count"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps10Streamable", "characters"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "characters"]
+- !private ["Ps30StringInterpolationConvertible", "characters"]
+- !private ["Ps24StringLiteralConvertible", "characters"]
+- !private ["PSo29UIAccessibilityIdentification", "rac_textSignal"]
+- !private ["PSo12UIAppearance", "rac_textSignal"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "rac_textSignal"]
+- ["PSo21UIAppearanceContainer", "submitButtonn"]
+- ["PSo21UIAppearanceContainer", "textField"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "submitButtonn"]
+- ["PSo18UIContentContainer", "textField"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "rac_textSignal"]
+- !private ["PSo17UICoordinateSpace", "rac_textSignal"]
+- !private ["PSo13UIDynamicItem", "rac_textSignal"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "rac_textSignal"]
+- ["PSo18UIFocusEnvironment", "submitButtonn"]
+- ["PSo18UIFocusEnvironment", "textField"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "rac_textSignal"]
+- !private ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UITextField"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "rac_textSignal"]
+- ["CSo11UIResponder", "submitButtonn"]
+- ["CSo11UIResponder", "textField"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "submitButtonn"]
+- ["PSo16UIStateRestoring", "textField"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "rac_textSignal"]
+- !private ["PSo11UITextInput", "rac_textSignal"]
+- !private ["PSo17UITextInputTraits", "rac_textSignal"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "rac_textSignal"]
+- ["PSo18UITraitEnvironment", "submitButtonn"]
+- ["PSo18UITraitEnvironment", "textField"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "rac_textSignal"]
+- !private ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UITextField"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "submitButtonn"]
+- ["CSo16UIViewController", "textField"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "characters"]
+- !private ["C16ReactiveConcepts14ViewController", "AnyObject"]
+- !private ["C16ReactiveConcepts14ViewController", "Bool"]
+- !private ["C16ReactiveConcepts14ViewController", "String"]
+- ["C16ReactiveConcepts14ViewController", "UIButton"]
+- ["C16ReactiveConcepts14ViewController", "UITextField"]
 - ["C16ReactiveConcepts14ViewController", "deinit"]
 - ["C16ReactiveConcepts14ViewController", "didReceiveMemoryWarning"]
 - ["C16ReactiveConcepts14ViewController", "init"]
+- !private ["C16ReactiveConcepts14ViewController", "print"]
+- ["C16ReactiveConcepts14ViewController", "submitButtonn"]
+- ["C16ReactiveConcepts14ViewController", "textField"]
 - ["C16ReactiveConcepts14ViewController", "viewDidLoad"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "characters"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "characters"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "characters"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "characters"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "characters"]
+- !private ["Ps12_Reflectable", "rac_textSignal"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
 depends-nominal:
 - "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
 - "Ps11CVarArgType"
+- !private "VSS13CharacterView"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps16ForwardIndexType"
 - "Ps8Hashable"
+- !private "SQ"
+- !private "VVSS13CharacterView5Index"
+- !private "Ps9Indexable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
 - "PSo8NSCoding"
+- !private "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps16OutputStreamType"
+- !private "CSo9RACSignal"
+- !private "CSo9RACStream"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
 - "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
 - "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
 - "CSo16UIViewController"
+- !private "Ps31UnicodeScalarLiteralConvertible"
 - "C16ReactiveConcepts14ViewController"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -111,5 +385,108 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Modules/ReactiveCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/ReactiveCocoa-Swift.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACObjCRuntime.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UIControl+RACSignalSupportPrivate.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UISwitch+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UISlider+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UIRefreshControl+RACCommandSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UIImagePickerController+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/MKAnnotationView+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UIActionSheet+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UIAlertView+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UIBarButtonItem+RACCommandSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UIDatePicker+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UIStepper+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UITextView+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UITextField+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UITableViewHeaderFooterView+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UITableViewCell+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UISegmentedControl+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UIGestureRecognizer+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UIControl+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UICollectionReusableView+RACSignalSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/UIButton+RACCommandSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/ReactiveCocoa.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/ReactiveCocoa-Bridging-Header.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACValueTransformer.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACUnit.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACUnarySequence.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACTupleSequence.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACTuple.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACTestScheduler.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACTargetQueueScheduler.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACSubscriptionScheduler.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACSubscriptingAssignmentTrampoline.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACStringSequence.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACSignalSequence.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACSignal+Operations.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACSerialDisposable.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACScopedDisposable.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACReturnSignal.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACReplaySubject.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACScheduler+Subclass.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACQueueScheduler.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACQueueScheduler+Subclass.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACPassthroughSubscriber.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACMulticastConnection.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACKVOTrampoline.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACKVOProxy.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACKVOChannel.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACIndexSetSequence.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACScheduler.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACImmediateScheduler.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACGroupedSignal.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACEvent.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACErrorSignal.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACEagerSequence.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACDynamicSignal.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACDynamicSequence.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACDynamicPropertySuperclass.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACDelegateProxy.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACDisposable.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACCompoundDisposable.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACCommand.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACChannel.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACBlockTrampoline.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACSubscriber.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACSignal.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACSubject.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACBehaviorSubject.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACStream.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACSequence.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/RACArraySequence.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSUserDefaults+RACSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSURLConnection+RACSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSString+RACSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSString+RACSequenceAdditions.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSString+RACKeyPathUtilities.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSSet+RACSequenceAdditions.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSOrderedSet+RACSequenceAdditions.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSObject+RACSelectorSignal.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSObject+RACPropertySubscribing.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSObject+RACLifting.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSObject+RACKVOWrapper.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSObject+RACDescription.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSObject+RACDeallocating.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSNotificationCenter+RACSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSInvocation+RACTypeParsing.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSIndexSet+RACSequenceAdditions.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSFileHandle+RACSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSEnumerator+RACSequenceAdditions.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSDictionary+RACSequenceAdditions.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSData+RACSupport.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/NSArray+RACSequenceAdditions.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/EXTScope.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/metamacros.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/EXTKeyPathCoding.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Headers/ReactiveCocoa-umbrella.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/ReactiveCocoa.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/Result.framework/Headers/Result-Swift.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/Result.framework/Headers/Result-umbrella.h"
+- "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/Result.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "2273e0b6560749631899e82af2412a52"
+interface-hash: "8fac1328a84a46faddb2c4208b0e7432"

@@ -20,10 +20,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "ResultType"
-- "&&&"
-- "ErrorType"
-- "Result"
 - "ErrorTypeConvertible"
+- "ErrorType"
+- "&&&"
+- "Result"
 depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "Failure"]
 - !private ["Ps28CustomDebugStringConvertible", "Success"]

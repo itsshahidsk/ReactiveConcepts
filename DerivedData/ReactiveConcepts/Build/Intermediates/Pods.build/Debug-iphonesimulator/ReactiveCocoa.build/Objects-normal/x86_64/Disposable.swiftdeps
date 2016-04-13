@@ -27,21 +27,21 @@ provides-member:
 - ["VC13ReactiveCocoa16SerialDisposableP33_4CF00FD4D505405780053139E994DD0C5State", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Array"
-- "Disposable"
-- "SequenceType"
-- "+="
-- "ActionDisposable"
-- "SimpleDisposable"
-- "Atomic"
 - "Bag"
-- !private "=="
-- "RemovalToken"
-- "CompositeDisposable"
-- "ScopedDisposable"
 - "SerialDisposable"
 - "Bool"
+- "Disposable"
+- "Atomic"
+- !private "Array"
 - "BooleanLiteralType"
+- "ScopedDisposable"
+- "ActionDisposable"
+- "SimpleDisposable"
+- !private "=="
+- "CompositeDisposable"
+- "SequenceType"
+- "+="
+- "RemovalToken"
 depends-member:
 - ["C13ReactiveCocoa16ActionDisposable", "Atomic"]
 - ["C13ReactiveCocoa16ActionDisposable", "Bool"]

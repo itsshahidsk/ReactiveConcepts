@@ -11,16 +11,16 @@ provides-member:
 - ["P13ReactiveCocoa9EventType", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "EventType"
-- "ErrorType"
-- !private "BooleanLiteralType"
 - "Bool"
-- "CustomStringConvertible"
-- "=="
-- "Event"
 - "String"
-- "Equatable"
+- "Event"
 - !private "StringLiteralType"
+- "=="
+- "Equatable"
+- "EventType"
+- "CustomStringConvertible"
+- !private "BooleanLiteralType"
+- "ErrorType"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Sb", "deinit"]

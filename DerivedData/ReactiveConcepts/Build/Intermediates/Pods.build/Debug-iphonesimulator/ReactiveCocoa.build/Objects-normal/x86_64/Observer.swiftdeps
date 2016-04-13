@@ -7,9 +7,9 @@ provides-member:
 - ["V13ReactiveCocoa8Observer", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Observer"
 - "ErrorType"
 - "Event"
+- "Observer"
 depends-member:
 - !private ["Ps23CustomStringConvertible", "Completed"]
 - !private ["Ps23CustomStringConvertible", "Failed"]

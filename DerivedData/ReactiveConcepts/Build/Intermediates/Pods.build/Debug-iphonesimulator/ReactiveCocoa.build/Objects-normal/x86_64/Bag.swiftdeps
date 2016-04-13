@@ -10,19 +10,19 @@ provides-member:
 - ["V13ReactiveCocoa3Bag", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "CollectionType"
-- "BagElement"
-- !private "UnicodeScalarType"
 - "RemovalToken"
-- !private "CustomStringConvertible"
+- !private "UnicodeScalarType"
 - "FloatLiteralType"
-- "Bag"
-- "IntegerLiteralType"
-- !private "=="
 - "Array"
-- "UInt"
 - !private "String"
+- "BagElement"
+- "UInt"
+- !private "CustomStringConvertible"
+- "IntegerLiteralType"
+- "Bag"
 - !private "StringLiteralType"
+- !private "=="
+- "CollectionType"
 depends-member:
 - !private ["Ps9AnyObject", "identifier"]
 - !private ["Ps9AnyObject", "init"]

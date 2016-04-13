@@ -8,20 +8,20 @@ provides-member:
 - ["CSo12NSURLSession", "rac_dataWithRequest"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "??"
+- "NSData"
+- "NSNotification"
 - "NSURLResponse"
+- "StringLiteralType"
+- "SignalProducer"
+- "NSURLSession"
+- "NSNotificationCenter"
+- !private "??"
 - "AnyObject"
 - !private "defaultSessionError"
-- "SignalProducer"
-- "NSNotification"
-- "NSNotificationCenter"
-- "StringLiteralType"
-- "NSData"
-- "NoError"
-- "String"
 - "NSError"
+- "String"
+- "NoError"
 - "NSURLRequest"
-- "NSURLSession"
 depends-member:
 - !private ["Ps9AnyObject", "SignalProducer"]
 - !private ["Ps9AnyObject", "addDisposable"]

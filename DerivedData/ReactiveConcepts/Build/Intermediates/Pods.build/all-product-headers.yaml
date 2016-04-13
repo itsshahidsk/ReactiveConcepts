@@ -31,6 +31,33 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/Pods_ReactiveConcepts.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-ReactiveConcepts-umbrella.h",
+          'external-contents': "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/Pods/Target Support Files/Pods-ReactiveConcepts/Pods-ReactiveConcepts-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_ReactiveConcepts-Swift.h",
+          'external-contents': "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/Pods_ReactiveConcepts.framework/Headers/Pods_ReactiveConcepts-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/Pods_ReactiveConcepts.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-ReactiveConcepts.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/DerivedData/ReactiveConcepts/Build/Products/Debug-iphonesimulator/PureLayout.framework/Headers",
       'contents': [
         {

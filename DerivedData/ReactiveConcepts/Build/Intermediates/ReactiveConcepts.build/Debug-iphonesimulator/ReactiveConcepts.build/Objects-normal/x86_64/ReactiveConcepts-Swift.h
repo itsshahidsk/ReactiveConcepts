@@ -122,11 +122,15 @@ SWIFT_CLASS("_TtC16ReactiveConcepts11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextField;
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC16ReactiveConcepts14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified textField;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified submitButtonn;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
