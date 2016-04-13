@@ -56,6 +56,7 @@
 		F728730E1CBC451600F90879 /* ReactiveConceptsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveConceptsUITests.swift; sourceTree = "<group>"; };
 		F72873101CBC451600F90879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B17F351CBD8CF6000B0876 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		F7B17F361CBEB8AE000B0876 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 		F72872DF1CBC451600F90879 = {
 			isa = PBXGroup;
 			children = (
+				F7B17F361CBEB8AE000B0876 /* README.md */,
 				F7B17F351CBD8CF6000B0876 /* MyPlayground.playground */,
 				F72872EA1CBC451600F90879 /* ReactiveConcepts */,
 				F72873021CBC451600F90879 /* ReactiveConceptsTests */,
