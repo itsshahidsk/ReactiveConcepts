@@ -65,8 +65,14 @@ print(rideNames2)
 let  averageRideTiems = parkRides.reduce(0) { (average, ride) -> Double in  return ride.waitTime/Double(parkRides.count) + average
 }
 
+extension Ride: Comparable {}
 
+func < (lhs:Ride, rhs: Ride) -> Bool {
+    return lhs.waitTime < rhs.waitTime
+}
 
-
+func == (lhs: Ride, rhs: Ride) -> Bool {
+    return lhs.name == rhs.name
+}
 
 
