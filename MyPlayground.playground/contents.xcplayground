@@ -5,5 +5,7 @@
         <page name='FRP1'/>
         <page name='FRP-Filters'/>
         <page name='FRP-Reductions'/>
+        <page name='Reactive Cocoa1'/>
+        <page name='Reactive Cocoa2'/>
     </pages>
 </playground>

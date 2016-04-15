@@ -81,6 +81,10 @@ let index = newLetters.map { (character) -> Entry in
 
 print(index)
 
+let array = ["shahid","Sk","Sharmila"].reverse()
+print(array.first)
+
+
 
 
 

@@ -34,6 +34,7 @@ class ViewController: UIViewController {
              print(textCount)
         }
         
+        
     }
 
     override func didReceiveMemoryWarning() {
