@@ -24,6 +24,7 @@ let numbers = Array(1...10).reduce("Numbers:") { (resultString,number) in
 print(numbers)
 
 
+
 let digits = ["3","1","4","1"]
 
 let number = digits.reduce(0) { (sum, stringValue)  in

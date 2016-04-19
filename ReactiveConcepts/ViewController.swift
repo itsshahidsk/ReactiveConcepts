@@ -42,6 +42,56 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
+    @IBAction func searchForTerm(sender: AnyObject) {
+        let array = Array(1...10).filter{ $0 % 2 == 0}
+        binarySearch(array, searchKey: 8)
 
+    }
+    
+    func binarySearch(sequence: [Int], searchKey:Int) {
+        
+        print(sequence.midIndex)
+        let minValue = sequence[sequence.minIndex]
+        let maxValue = sequence[sequence.maxIndex]
+        let midValue = sequence[sequence.midIndex]
+        
+        guard midValue != searchKey else {
+            print("we found your item \(searchKey)")
+            return
+        }
+        
+        guard searchKey < maxValue && searchKey > minValue else {
+            print("we count not find your item")
+            return
+        }
+        
+        if midValue > searchKey {
+            binarySearch(Array(sequence[sequence.minIndex...sequence.midIndex-1]), searchKey:searchKey)
+        } else {
+            binarySearch(Array(sequence[sequence.midIndex+1...sequence.maxIndex]), searchKey:searchKey)
+        }
+        
+    }
 }
+
+extension Array {
+    var midIndex: Int {
+        guard self.count > 1 else {
+            return 0
+        }
+        print("count is \(self.count)")
+        return (self.count / 2) - 1
+    }
+    var minIndex: Int {
+        return self.startIndex
+    }
+    var maxIndex: Int {
+        return self.endIndex - 1
+    }
+    
+}
+
+
 

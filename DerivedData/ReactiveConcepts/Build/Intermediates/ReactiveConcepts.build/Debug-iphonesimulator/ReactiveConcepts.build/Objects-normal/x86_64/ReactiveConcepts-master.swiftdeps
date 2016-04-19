@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
 options: "efea7648a7c9cc2725cdf255bcf7c3c4"
-build_time: [513965190, 320923000]
+build_time: [514313829, 54400000]
 inputs:
-  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/ReactiveConcepts/ViewController.swift": [513907612, 0]
+  "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/ReactiveConcepts/ViewController.swift": [514066595, 0]
   "/Users/shahid/Desktop/Projects/Swift2/Raywenderlich/ReactiveConcepts/ReactiveConcepts/AppDelegate.swift": [513722902, 0]
