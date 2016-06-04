@@ -9,60 +9,50 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>PureLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>PureLayout.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<true/>
-		</dict>
 		<key>ReactiveCocoa.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Result.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>SwiftyBeaver.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>21C696A9BF9471AFAF6EFBFC5E538B8A</key>
+		<key>8604A3B46AEBAE086985AA683491864D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7FE68F0C0DFEB883282A5492128B8412</key>
+		<key>9348B65DBAE7881855A59A699EF87FF3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>84FE16F2A7A71C04FAE17B445583BE8E</key>
+		<key>99BD971D10C1B8587068B21A1F0BCF94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A460724EDB898B9BBA8B9D8F0C7D30E4</key>
+		<key>9F00E5A3DA3072C385492E5856EF462B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B43572A5A92A1421E6D027E3F57CDBE4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D6F06C34A3B1A34E6A8DF1618C5D812E</key>
+		<key>CD482B5799E7FD4201C2DCE365D201C4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
